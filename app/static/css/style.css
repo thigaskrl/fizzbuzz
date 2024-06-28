@@ -1,0 +1,33 @@
+:root {
+    --color-text: #ffffff;
+    --color-background: #000000;
+}
+
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: Ubuntu;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Macondo;
+}
+
+.header, .info, .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info {
+    line-height: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
